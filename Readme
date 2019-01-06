@@ -1,0 +1,13 @@
+********This file is to search appartments on craglist and post into slack*****
+
+This class is used for searching apprtements from craiglist in the area speciefied by user and then post the listings on slack.
+User Enters the location in Slack api which he wants to search, and app looks for all bedrooms in price range 1000-2000 in that specified area and post it onto Slack channel .
+The search is done by slack bot and which post the listings.
+
+To Run the program , you need to create slack channel and slack token . It is used to authenticate and commucniate with your channel.
+
+e.g.        SLACK_TOKEN = "xoxb513638154290-513475702356-QOHxjz7toCmoeXRypUiQpBs4"
+            SLACK_CHANNEL = "#learning"
+
+        
+        
